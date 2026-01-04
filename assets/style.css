@@ -1,0 +1,45 @@
+:root {
+    --mainColor: #7B3FF2;
+    --secondColor: rgba(255, 255, 255, 0.75);
+    --mainFontFamily: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.bg_mainColor{
+    background-color: var(--mainColor);
+}
+
+.text_secondColor{
+    color: var(--secondColor);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #ffffff;
+    font-weight: 600;
+}
+.nav-link{
+    font-family: var(--mainFontFamily);
+}
+.nav-link:focus, .nav-link:hover {
+    color: #ffffff;
+    font-weight: 600;
+    transition: color 0.4s ease;
+}
+
+.btn {
+    background-color: #ffffff;
+    color: black;
+    font-family: var(--mainFontFamily);
+}
+
+.rounded_s1{
+    border-radius: 1.2rem;
+}
+
+.navbar-brand{
+    color: #ffffff;
+    
+}
+
+.form-control {
+    width: 65%;
+}
